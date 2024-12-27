@@ -225,7 +225,10 @@ cd frontend
 npm start
 ```
 ### Access the Application:
+
+```
 Open your browser and navigate to http://localhost:5173.
+```
 
 ## Security Features
 Data encryption for sensitive user information.
