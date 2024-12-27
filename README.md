@@ -205,7 +205,7 @@ STRIPE_PUBLIC_KEY = your-stripe-pk # for frontend intergration
 STRIPE_SECRET_KEY = your-stripe-sk # for backend integration
 ```
 
-Create a .env file in the backend directory with the following keys:
+Create a .env file in the frontend directory with the following keys:
 
 ```
 # Backend configuration
