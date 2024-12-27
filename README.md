@@ -158,51 +158,54 @@ Environment variables for secure configuration management.
 ### Clone the Repository:
 ```
 git clone https://github.com/your-repository/cyber-website.git
-cd cyber-website
 ```
-Install Dependencies:
 
-Backend:
-bash
-Copy code
+## Install Dependencies:
+### Backend:
+```
 cd backend
 npm install
-Frontend:
-bash
-Copy code
+```
+### Frontend:
+```
 cd frontend
 npm install
-Set Environment Variables:
-
+```
+## Set Environment Variables:
 Create a .env file in the backend directory with the following keys:
-env
-Copy code
-FRONTEND_ORIGIN_URI=http://localhost:5173
-MONGO_URI=your-mongo-connection-string
-JWT_SECRET=your-jwt-secret
-JWT_REFRESH_SECRET=your-refresh-token-secret
-TWILIO_ACCOUNT_SID=your-twilio-sid
-TWILIO_AUTH_TOKEN=your-twilio-auth-token
-CLOUDINARY_CLOUD_NAME=your-cloudinary-cloud-name
-CLOUDINARY_API_KEY=your-cloudinary-api-key
-CLOUDINARY_API_SECRET=your-cloudinary-api-secret
-OTP_EXPIRATION_TIME=5 # in minutes
-Run the Application:
 
+```
+FRONTEND_ORIGIN_URI= http://localhost:5173
+MONGO_URI= your-mongo-connection-string
+JWT_SECRET= your-jwt-secret
+JWT_REFRESH_SECRET= your-refresh-token-secret
+TWILIO_ACCOUNT_SID= your-twilio-sid
+TWILIO_AUTH_TOKEN= your-twilio-auth-token
+CLOUDINARY_CLOUD_NAME= your-cloudinary-cloud-name
+CLOUDINARY_API_KEY= your-cloudinary-api-key
+CLOUDINARY_API_SECRET= your-cloudinary-api-secret
+OTP_EXPIRATION_TIME=5 # in minutes
+```
+### Run the Application:
 Start the backend:
-bash
-Copy code
+```
 cd backend
 npm start
+```
 Start the frontend:
-bash
-Copy code
+
+```
 cd frontend
 npm start
-Access the Application:
-
+```
+### Access the Application:
 Open your browser and navigate to http://localhost:5173.
-Security Features
+
+## Security Features
 Data encryption for sensitive user information.
 Expiry-based OTP verification to prevent misuse.
 Session tokens with secure storage and revocation mechanisms.
+
+
+
+# THANK YOU ❤💙❤
