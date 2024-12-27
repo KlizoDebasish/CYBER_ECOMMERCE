@@ -179,17 +179,39 @@ npm install
 Create a .env file in the backend directory with the following keys:
 
 ```
-FRONTEND_ORIGIN_URI= http://localhost:5173
-MONGO_URI= your-mongo-connection-string
-JWT_SECRET= your-jwt-secret
-JWT_REFRESH_SECRET= your-refresh-token-secret
-TWILIO_ACCOUNT_SID= your-twilio-sid
-TWILIO_AUTH_TOKEN= your-twilio-auth-token
-CLOUDINARY_CLOUD_NAME= your-cloudinary-cloud-name
-CLOUDINARY_API_KEY= your-cloudinary-api-key
-CLOUDINARY_API_SECRET= your-cloudinary-api-secret
-OTP_EXPIRATION_TIME=5 # in minutes
+PORT = your-port-number
+MONGO_CLOUD_DATABASE_URI = your-mongo-connection-string
+JWT_SECRET = your-jwt-secret
+JWT_REFRESH_SECRET = your-refresh-token-secret (optional)
+
+# Frontend configuration
+FRONTEND_ORIGIN_URI = http://localhost:5173
+
+# cloudinary env setup
+CLOUDINARY_NAME =  your-cloudinary-cloud-name
+CLOUDINARY_API_KEY = your-cloudinary-api-key
+CLOUDINARY_API_SECRET = your-cloudinary-api-secret
+
+# twilio env setup
+TWILIO_SID =  your-twilio-sid
+TWILIO_AUTH_TOKEN = your-twilio-auth-token
+TWILIO_PHONE_NUMBER = your-twilio-number
+
+# OTP validity in minutes
+OTP_EXPIRATION_TIME = 5 # in minutes
+
+# Stripe env setup
+STRIPE_PUBLIC_KEY = your-stripe-pk # for frontend intergration
+STRIPE_SECRET_KEY = your-stripe-sk # for backend integration
 ```
+
+Create a .env file in the backend directory with the following keys:
+
+```
+# Backend configuration
+VITE_BACKEND_URL = http://localhost:PORT_NUMBER
+```
+
 ### Run the Application:
 Start the backend:
 ```
