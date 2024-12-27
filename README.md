@@ -2,6 +2,7 @@
 
 ### (We are Working now)
 
+
 The Cyber Website is a robust and secure platform designed to facilitate seamless user interactions, showcasing advanced features and modern web technologies. It offers a dynamic and user-friendly interface while ensuring high standards of security and performance. This application is built with a focus on flexibility, scalability, and maintainability, making it suitable for a wide range of use cases.
 
 # documentation: 
@@ -11,8 +12,8 @@ https://docs.google.com/document/d/1yXlbSdbzNpnL2zL-kmD-grP36vvf_kij11fLbsGxyoQ/
 https://docs.google.com/document/d/1XPS3TAUmuT6SVQ2z9kaXlA04R6jxpHqEgSzEVv3Hy94/edit?usp=sharing
 
 ## Live Demo
-
 Experience the live version of the Portfolio Website here: [Live Demo](https://ecommerce-app-klizos.vercel.app)
+
 
 ## Screenshots 
 
@@ -101,6 +102,7 @@ Experience the live version of the Portfolio Website here: [Live Demo](https://e
 ![10](https://github.com/user-attachments/assets/7224f514-ba89-4faa-a569-cc49f5895f1b)
 
 
+
 ## Features
 
 ### User Authentication:
@@ -130,6 +132,7 @@ Support for cookies and HTTP authentication headers for secure cross-origin requ
 RESTful APIs for seamless communication between frontend and backend.
 Postman collections available for testing and debugging endpoints.
 
+
 ## Technology Stack
 
 ### Frontend:
@@ -152,6 +155,7 @@ Twilio for OTP generation and delivery.
 
 Postman for API testing and debugging.
 Environment variables for secure configuration management.
+
 
 
 ## Setup and Installation
